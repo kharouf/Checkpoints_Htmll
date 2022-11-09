@@ -1,0 +1,276 @@
+/**{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}*/
+/*header*/
+.nav{
+    background-color: black;
+    font-family: roboto;
+    height: 60px;
+    margin-top: -10px;
+    margin-right: -0.2cm;
+    margin-left: -20px;
+  
+}
+.container a{
+    display: inline;
+    padding: 80px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    text-decoration:none;
+}
+.container a:hover{
+  color:  aqua;
+}
+.container{
+padding-top: 8px;
+padding-bottom: 3cm;
+}
+a#name{
+    font-size: x-large;
+    font-family: Ink Free;
+}
+.container #btn-group{
+text-align: center;
+background-color: #3a3d3a;
+color: aliceblue;
+font-size: 20px;
+margin-left: 35.7cm;
+border-radius: 8px;
+margin-top: -0.6cm;
+position: absolute;
+
+}
+
+#btn-group:hover {
+    background-color: #262726;
+  }
+  .hi{
+    margin: 5cm 0 0 3cm;
+    font-size: xx-large;
+
+  }
+  /*home*/
+  .homee{
+    border: aqua solid 2px;
+    background-color: aqua;
+    margin: 0 -0.2cm 0 -1cm;
+  }
+  .image{
+    margin-left: 27cm;
+    margin-top: -6cm;
+    margin-bottom: 1cm;
+    
+    
+  }
+  #pro{
+    height: 300px;
+    width: 300px;
+  }
+  .icon{
+    display: inline-block;
+    margin-left: 29cm;
+    margin-bottom: 1cm; 
+  }
+#pro{
+    border-radius:  10% 35% 10% 35%;
+    border-color: aqua;
+}
+.p{
+    text-align:right;
+}
+.About{
+  border: rgb(6, 243, 192) solid 2px;
+  background-color: rgb(6, 243, 192);
+  margin: 0 -0.2cm 0 -1cm;
+}
+#title{
+  font-size: xx-large;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #4e554e;
+  text-align: center;
+}
+/*about*/
+.about{
+  font-size:x-large;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 1cm;
+  padding-left: 2cm;
+  
+}
+.languages{
+  font-size:large;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 0.5cm;
+  padding-left: 3cm;
+ 
+}
+ul li{
+  margin-bottom: 0.5cm;
+}
+/*work*/
+.Work {
+  border: aqua solid 2px;
+  background-color: aqua;
+  margin: 0 -0.2cm 0 -1cm;
+  padding-bottom: 2.5cm;
+  
+ 
+  
+}
+.end {
+  margin: -19.5cm 1cm 0 2cm;
+
+  
+}
+#end{
+  font-size: x-large;
+  font-family: Cursive;
+  padding-bottom: 1cm;
+  
+}
+#academic{
+  font-size: x-large;
+  font-family: Cursive;
+  padding-right: 6cm;
+  padding-top: 2cm;
+  display:table;
+  float: right;
+}
+.academic {
+  margin: 0 1cm 0 1cm;
+  
+}
+.acimg{
+  padding-left: 25cm;
+  padding-top: 5cm;
+  box-shadow: inset;
+}
+.acimg img{
+  border:#262726 solide 2px;
+  border-radius: 5px;
+}
+.acimg2{
+  padding-left: 25cm;
+  
+  
+}
+.acimg2 img{
+  border:#262726 solide 2px;
+  border-radius: 5px;
+}
+.alpha img{
+  border:#262726 solide 2px;
+  border-radius: 5px;
+}
+.noob img{
+  border:#262726 solide 2px;
+  border-radius: 5px;
+}
+.fontp{
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+.tech{
+  text-decoration: underline;
+  color: rgb(36, 7, 139);
+}
+.resume{
+  border:  rgb(6, 243, 192) solid 2px;
+  background-color:  rgb(6, 243, 192);
+  margin: 0 -0.2cm 0 -1cm;
+  padding-bottom: 2cm;
+}
+.resume iframe{
+margin: 0 0 0 6.8cm ;
+}
+/*contact*/
+.contact{
+  border:   aqua solid 2px;
+  background-color:   aqua;
+  margin: 0 -0.2cm 0 -1cm;
+  padding-bottom: 2cm;
+}
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 20%;
+  background-color: #222422;
+  color: white;
+  padding: 14px 20px;
+  margin: 10px 0  0 8cm;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+input[type=submit]:hover {
+  background-color: #161416;
+}
+
+.form{
+  margin-left: 10cm;
+  justify-content: center;
+}
+#label{
+font-size: x-large;
+font-family: Franklin Gothic Medium;
+margin-bottom: 10px;
+white-space: pre-line;
+
+}
+
+#input{
+  margin-right: 2cm;
+}
+/*footer*/
+footer{
+  background-color: rgb(7, 7, 7);
+    font-family: roboto;
+    color: aliceblue;
+    height: 80px;
+    margin: 0 -0.2cm 0 -1cm;
+    
+}
+.foooter{
+  margin-bottom: 2cm;
+  padding-top: 1cm;
+  box-sizing: border-box;
+  
+}
+
+#icon1{
+ 
+  margin: 0 0.5cm -1cm 11cm ;
+  padding-top: 0.5cm;
+  
+  
+}
+#icon1 a{
+margin-left: 0.5cm;
+margin-top: 0.5cm;
+
+}
+#p{
+  margin-left: 15cm;
+  margin-top: -1.4cm;
+  
+}
+#icon2{
+  margin-left: 20.5cm;
+  margin-top: -1.4cm;
+  
+}
+#icon2 a{
+  margin-left: 0.5cm;
+ 
+
+  }
